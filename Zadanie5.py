@@ -1,6 +1,0 @@
-#5. Napisz program, który rysuje prostokąt o zadanych rozmiarach (wysokość i szerokość) za pomocą znaków | (bok) - (góra/dół) + (wierzchołek)
-wysokosc=int(input("Podaj wysokość prostokąta"))
-szerokosc =int(input("Podaj szerokość prostokąta"))
-print("+"+ (szerokosc-2)*"-"+"+")
-print((wysokosc-2) * ("|"+ (szerokosc-2)*" "+"| \n") , end="")
-print("+"+ (szerokosc-2)*"-"+ "+")
