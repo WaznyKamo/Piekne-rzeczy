@@ -7,7 +7,7 @@
 #    A jeszcze większym atutem będzie gdy będzie można podać liste zagnieżdżoną i narysuje się tabela z odpowiednią ilością wierszy i kolumn :)
 
 file = open("plik.txt", "r+")
-list = file.read().splitlines()
+list = file.read().splitlines()             #plik odczytuje każdą linijkę tekstu jako wartość, która ma być umieszczona w kolumnie
 liczba_wyrazow = len(list)
 szerokosc_kolumny = 20
 
