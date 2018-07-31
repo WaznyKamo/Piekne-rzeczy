@@ -27,3 +27,4 @@ for wiersz in dane:                             #dla każdego wiersza zwraca sł
     print("|")
     print(("+" + szerokosc_kolumny * "-") * len(keys) + "+")
     dane_tabeli.append(slownik)                 #po utworzeniu słownika dodaje go jako kolejną wartość do listy (zm. dane)
+csvfile.close()
